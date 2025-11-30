@@ -1,12 +1,12 @@
 import React from 'react';
 
 const images = [
-  "https://images.unsplash.com/photo-1587779782504-20d20d41eb3a?q=80&w=800&auto=format&fit=crop",
-  "https://images.unsplash.com/photo-1629420042457-3729d7e52002?q=80&w=800&auto=format&fit=crop",
-  "https://images.unsplash.com/photo-1560750588-73207b1ef5b8?q=80&w=800&auto=format&fit=crop",
-  "https://images.unsplash.com/photo-1522337660859-02fbefca4702?q=80&w=800&auto=format&fit=crop",
-  "https://images.unsplash.com/photo-1512496015851-a90fb38ba796?q=80&w=800&auto=format&fit=crop",
-  "https://images.unsplash.com/photo-1571210967355-6c7b94921964?q=80&w=800&auto=format&fit=crop",
+  "./images/1.png",
+  "./images/2.png",
+  "./images/3.png",
+  "./images/4.png",
+  "./images/5.png",
+  "./images/6.PNG",
 ];
 
 const Gallery: React.FC = () => {

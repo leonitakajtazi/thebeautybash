@@ -29,11 +29,16 @@ const Navbar: React.FC = () => {
     >
       <div className="container mx-auto px-6 flex justify-between items-center">
         <a href="#" className="flex items-center gap-2 group">
-          <Sparkles className="text-pink-500 w-6 h-6 group-hover:rotate-12 transition-transform duration-500" />
-          <span className="font-serif text-2xl font-bold tracking-wider text-white">
-            The Beauty Bash
-          </span>
-        </a>
+  <img 
+    src="/images/logo.jpg" 
+    alt="The Beauty Bash Logo" 
+    className="w-10 h-10 object-contain group-hover:scale-110 transition-transform duration-300"
+  />
+  <span className="font-serif text-2xl font-bold tracking-wider text-white">
+    The Beauty Bash
+  </span>
+</a>
+
 
         {/* Desktop Menu */}
         <div className="hidden md:flex items-center space-x-8">

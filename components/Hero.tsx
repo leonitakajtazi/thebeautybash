@@ -8,7 +8,7 @@ const Hero: React.FC = () => {
       <div className="absolute inset-0 z-0">
         <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/40 to-[#0a0a0a] z-10" />
         <img 
-          src="https://images.unsplash.com/photo-1616683693504-3ea7e9ad6fec?q=80&w=2574&auto=format&fit=crop" 
+          src="./images/back.png" 
           alt="Beauty Lash Background" 
           className="w-full h-full object-cover opacity-60"
         />

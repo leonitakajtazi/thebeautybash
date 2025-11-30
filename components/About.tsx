@@ -17,7 +17,7 @@ const About: React.FC = () => {
           >
             <div className="relative z-10">
               <img 
-                src="https://images.unsplash.com/photo-1595959183082-7b570b7e08e2?q=80&w=1336&auto=format&fit=crop" 
+                src="./images/owner.png" 
                 alt="Melissa Durmaz" 
                 className="w-full max-w-md mx-auto grayscale hover:grayscale-0 transition-all duration-700 rounded-sm shadow-2xl"
               />
